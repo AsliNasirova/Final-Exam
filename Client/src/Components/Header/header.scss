@@ -1,0 +1,65 @@
+#header{
+    padding-top: 100px;
+    width: 100%;
+
+}
+
+.slidesHEadre{
+    width: 100%;
+    // height: 100vh;
+    position: relative;
+   
+    .titleHEadre{
+        color: white;
+        margin-top: 60px;
+    margin-left: 30px;
+        font-size: 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        position: absolute;
+        .HeaderBtn{
+            .ShopHeadreBtn{
+                border-radius: 50px;
+                width: 100px;
+                height: 30px;
+                border: none;
+                background-color: white;
+                color: black;
+                &:hover{
+                    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+                    // box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+                    transition: 0.4s;
+                    color: white;
+                    background-color: rgb(131, 82, 82);
+                }
+            }
+        }
+    }
+}
+
+
+@media only screen and (max-width: 300px) {
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+  
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}

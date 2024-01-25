@@ -1,0 +1,110 @@
+#ourBlog {
+  width: 100%;
+  height: 100vh;
+  padding-top: 30px;
+  .ourBLoG {
+    text-align: center;
+    align-items: center;
+    .titleOURBlog {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .cardOPsiOURBlog {
+      margin-top: 30px;
+      gap: 40px;
+      display: flex;
+      justify-content: center;
+      .cardOURBlog {
+        .imageCardOurBlog {
+          img {
+            width: 400px;
+          }
+        }
+        .textCardOurBlog {
+          text-align: center;
+          width: 400px;
+          display: flex;
+          align-items: center;
+          flex-direction: column;
+          justify-content: center;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  #ourBlog {
+    width: 60%;
+    height: 100vh;
+    padding-top: 30px;
+    .ourBLoG {
+      text-align: center;
+      align-items: center;
+      .titleOURBlog {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .cardOPsiOURBlog {
+        width: 50%;
+        margin-top: 30px;
+        gap: 40px;
+        display: flex;
+        justify-content: center;
+        .cardOURBlog {
+          .imageCardOurBlog {
+            img {
+              width: 400px;
+            }
+          }
+          .textCardOurBlog {
+            width: 400px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  #ourBlog {
+    width: 60%;
+    height: 100vh;
+    padding-top: 30px;
+    .ourBLoG {
+      text-align: center;
+      align-items: center;
+      .titleOURBlog {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .cardOPsiOURBlog {
+        width: 100%;
+        margin-top: 30px;
+        // gap: 40px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: center;
+        .cardOURBlog {
+          .imageCardOurBlog {
+            img {
+              width: 400px;
+            }
+          }
+          .textCardOurBlog {
+            width: 400px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+          }
+        }
+      }
+    }
+  }
+}

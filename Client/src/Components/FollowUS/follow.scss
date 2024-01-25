@@ -1,0 +1,37 @@
+#follow{
+    width: 100%;
+    height: 60vh;
+  
+    .followUS{
+        .titleFollow{
+             display: flex;
+        justify-content: center;
+        align-items: center;
+        }
+        .imagesFollowUs{
+            display: flex;
+            justify-content: center;
+            width: 100%;
+            .imageFollow{
+                img{
+                    width: 360px;
+                }
+            }
+        }
+        .textEndFollow{
+          
+            margin-top: 30px;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            font-size: 20px;
+            gap: 50px;
+
+            p{
+                color: gray;
+            }
+        }
+       
+
+    }
+}
